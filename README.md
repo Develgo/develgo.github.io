@@ -43,3 +43,7 @@ To build applications for Apple Platforms the preferred IDE is [Xcode](https://d
 [Swift Charts](https://developer.apple.com/documentation/charts)
 
 [SF Symbols](https://developer.apple.com/sf-symbols/)
+
+## Keyboard Shortcuts
+
+[Xcode Keyboard Shortcuts](xcode-shortcuts.md)
