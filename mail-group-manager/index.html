@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mail Group Manager</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #111827;
+      color: #f3f4f6;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background-color: #1f2937;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    p.lead {
+      font-size: 1.2rem;
+      color: #9ca3af;
+    }
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    h2 {
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+      color: #f9fafb;
+    }
+    ul.features {
+      list-style: none;
+      padding: 0;
+    }
+    ul.features li {
+      margin-bottom: 1rem;
+      padding-left: 1.5rem;
+      position: relative;
+    }
+    ul.features li::before {
+      content: '✔';
+      color: #10b981;
+      position: absolute;
+      left: 0;
+    }
+    .screenshots {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .screenshots img {
+      width: 100%;
+      border-radius: 0.5rem;
+      border: 1px solid #374151;
+    }
+    .coming-soon, .ideal-for {
+      margin-top: 2rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #1f2937;
+      font-size: 0.9rem;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mail Group Manager</h1>
+    <p class="lead">Simplify group communication. Supercharge your email workflows.</p>
+  </header>
+
+  <section>
+    <h2>Powerful Features</h2>
+    <ul class="features">
+      <li>Copy & paste group emails with one click into any email client.</li>
+      <li>Create new contacts by pasting email addresses from received emails.</li>
+      <li>Import/export email contacts and groups as needed.</li>
+      <li>Organize contacts into clearly named and described groups.</li>
+      <li>Search and filter contacts instantly with a blazing-fast interface.</li>
+      <li>Polished, professional UI with full dark mode support.</li>
+    </ul>
+
+    <h2>Your Data, Your Control</h2>
+    <p>We don’t send your contact data to the cloud. Everything stays on your device unless you choose to export it.</p>
+
+    <div class="screenshots">
+      <div>
+        <h3>Email Contacts</h3>
+        <img src="../images/mgm_email_contacts.png" alt="Email Contacts UI" />
+      </div>
+      <div>
+        <h3>Email Groups</h3>
+        <img src="../images/mgm_email_groups.png" alt="Email Groups UI" />
+      </div>
+    </div>
+
+    <div class="ideal-for">
+      <h2>Ideal For</h2>
+      <ul class="features">
+        <li>Team leads managing project updates</li>
+        <li>Event organizers sending invitations</li>
+        <li>Clubs and communities managing mailing lists</li>
+        <li>Admins maintaining employee contact directories</li>
+      </ul>
+    </div>
+
+    <div class="coming-soon">
+      <h2>Coming Soon</h2>
+      <ul class="features">
+        <li>Cloud sync</li>
+        <li>Shared groups across teams</li>
+        <li>Integration with Outlook and Gmail</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Mail Group Manager. All rights reserved.
+  </footer>
+</body>
+</html>

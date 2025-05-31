@@ -6,6 +6,8 @@ Here are some quick links to access some of Apple's developer resources.
 
 [WWDC Updates](https://developer.apple.com/documentation/Updates)
 
+[Design Resources](https://developer.apple.com/design/resources/)
+
 ## Swift Programming Resources
 
 [Swift Programming Language Reference](https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics)
