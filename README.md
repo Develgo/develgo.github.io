@@ -49,3 +49,9 @@ To build applications for Apple Platforms the preferred IDE is [Xcode](https://d
 ## Keyboard Shortcuts
 
 [Xcode Keyboard Shortcuts](xcode-shortcuts.md)
+
+## Cheat Sheets
+
+- [Git](https://git-scm.com/cheat-sheet)
+- [VIM](https://vim.rtorr.com)
+- [Xcode](https://www.shortcutfoo.com/app/dojos/xcode-mac/cheatsheet)
